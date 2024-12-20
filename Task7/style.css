@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+button:active{
+    scale: 0.95;
+}

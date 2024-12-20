@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(122, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    width: 450px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.753);
+    padding: 30px;   
+}
+.downl{
+    width: 90%;
+    height: 13%;
+    background-color: white;
+    /* margin-left: 5%;
+    margin-top: 10%; */
+    border-radius: 50px;
+}
+.growth{
+    height: 100%;
+    width: 0%;
+    background-color: green;
+    border-radius: 50px;
+}
+.per{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20%;
+}
+.per h1{
+    margin-left: 5%;
+}
+.per button{
+    margin-right: 5%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(18, 196, 18);
+    cursor: pointer;
+}
+

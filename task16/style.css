@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #777;
+}
+.card{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card h3{
+    font-size: 30px;
+}
+.allStatus{
+    height: 90%;
+    width: 100%;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    overflow: auto;
+}
+.allStatus::-webkit-scrollbar{
+    display: none;
+}
+.allStatus::-webkit-scrollbar{
+    display: none;
+}
+.status{
+    padding: 10px;
+    /* margin-top: 5px; */
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    overflow: hidden;
+}
+.circle img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    object-position: center; 
+}

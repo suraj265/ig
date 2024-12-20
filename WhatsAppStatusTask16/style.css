@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card h3{
+    font-size: 30px;
+}
+.allStatus{
+    height: 80%;
+    width: 100%;
+    border-top: 2px solid black; 
+    overflow: auto;
+    margin-top: 10px;
+}
+.allStatus::-webkit-scrollbar{
+    display: none;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid green;
+    overflow: hidden;
+} 
+.status{
+    /* background-color: yellow; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    gap: 10px;
+    border-bottom: 2px solid black;
+    position: relative;
+    cursor: pointer;
+}
+.status .overlay{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    left: 0;
+}
+.status img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;   
+}
